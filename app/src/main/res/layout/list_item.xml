@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="prodauct_name"
+            android:id="@+id/product_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:fontFamily="sans-serif"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="price"
+            android:id="@+id/price"
+            android:textColor="#a79e9e"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="quantity"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:id="@+id/quantity"
+        android:textColor="#24315c"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+
+    <Button
+        android:id="@+id/sale"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="sale"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_vertical"/>
+
+</LinearLayout>
